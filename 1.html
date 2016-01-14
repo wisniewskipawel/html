@@ -1,0 +1,48 @@
+<!DOCTYPE html >
+<html lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="http//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="jquery-2.2.0.js"></script>
+	<title>formularz 1</title>
+	  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+</head>
+<body>
+<form id="Form1" action="...">
+	<table class="tab">
+
+	<tr>
+	<td colspan="3" id="tytul">Dane identyfikacyjne</td><td id="tytul2"></td></td><td id="tytul2"></td>
+</tr>
+<tr>
+	<td colspan="2">1. Nazwa LGD<br /> <input type="text" name="Nazwa_LGD" size="55" /></td>	   <td>2. Numer identyfikacyjny LGD<br /> <input type="text" name="Nr_id_LGD" size="25" /></td>
+</tr>
+<tr>
+	<td>3. Rodzaj LGD<br />
+		<input type="radio" name="RodzajLGD" value="3.1. Istniej±…ca" />3.1. IstniejÄ…ca<br />
+		<input type="radio" name="RodzajLGD" value="3.2. Nowoutworzona" />3.1. Nowoutworzona<br />
+	</td>
+</tr>
+<tr>
+	<td>4. Numer NIP<br /> <input type="text" name="Nr_NIP" size="25" /></td>	<td>5. Numer w KRS<br /><input type="text" name="Nr_w_KRS" size="25" /></td> <td>6. REGON<br /><input type="text" name="REGON" size="25" /> </td>
+</tr>
+<tr>
+	<td>7. Numer umowy ramowej<br /> <input type="text" name="Nr_umowy_ramowej" size="25" /></td>	<td>8. Zawarta dnia<br /> <input type="text" id="datepicker" name="zawarta_dnia" size="25"></td>
+</tr>
+</table>
+	
+	
+	
+	
+	
+	
+</form>
+</body>
+</html>
