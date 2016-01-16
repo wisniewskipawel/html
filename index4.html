@@ -25,124 +25,160 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>  
-		<div class="container"> 
+		<div class="container">
+			<div id=topbar>
+				10. Dane osób upoważnionych do reprezentowania LGD
+			</div>
+			<div id="content">
+		
+				<div id="nav">
+					GRID
+			
 
-				<div class="row">
-					<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-12">
 
-						<!-- Przycisk uruchamiający modal -->
-						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-							Dodaj
-						</button>
-						<!-- Modal -->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">&times;</span>
-											<span class="sr-only">Zamknij</span>
-										</button>
-										<h4 class="modal-title" id="myModalLabel">
-											Dane osoby upoważnionej do reprezentowania LGD
-										</h4>
-									</div>
-									<div class="modal-body">
-										<form class="form" role="form">
-											<div class="row">
-												<div class="form-group col-md-4">
+							<!-- Przycisk uruchamiający modal -->
+							<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+								Dodaj
+							</button>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+												<span aria-hidden="true">&times;</span>
+												<span class="sr-only">Zamknij</span>
+											</button>
+											<h4 class="modal-title" id="myModalLabel">
+												Dane osoby upoważnionej do reprezentowania LGD
+											</h4>
+										</div>
+										<div class="modal-body">
+											<form class="form" role="form">
+												<div class="row">
+													<div class="form-group col-md-4">
 			
-													<label for="Nazwisko" class="control-label">Nazwisko:</label>
-													<input type="text" class="form-control" id="Nazwisko" placeholder="Nazwisko" />
+														<label for="Nazwisko" class="control-label">Nazwisko:</label>
+														<input type="text" class="form-control" id="Nazwisko" placeholder="Nazwisko" />
 			
+													</div>
+													<div class="form-group col-md-4">
+			
+														<label for="Imię" class="control-label">Imię:</label>
+														<input type="text" class="form-control" id="Imię"  placeholder="Imię" />
+			
+													</div>
+													<div class="form-group col-md-4">
+			
+														<label for="Stanowisko_funkcj" class="control-label">Stanowisko / funkcja:</label>
+														<input type="text" class="form-control" id="Stanowisko_funkcj"  placeholder="Stanowisko / funkcja" />
+			
+													</div>
 												</div>
-												<div class="form-group col-md-4">
-			
-													<label for="Imię" class="control-label">Imię:</label>
-													<input type="text" class="form-control" id="Imię"  placeholder="Imię" />
-			
-												</div>
-												<div class="form-group col-md-4">
-			
-													<label for="Stanowisko_funkcj" class="control-label">Stanowisko / funkcja:</label>
-													<input type="text" class="form-control" id="Stanowisko_funkcj"  placeholder="Stanowisko / funkcja" />
-			
-												</div>
-											</div>
-										</form>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-										<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+											<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 						
 						
-						<!-- Przycisk uruchamiający modal -->
-						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
-							Edytuj
-						</button>
-						<!-- Modal -->
-						<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">&times;</span>
-											<span class="sr-only">Zamknij</span>
-										</button>
-										<h4 class="modal-title" id="myModalLabel">
-											Edytuj
-										</h4>
-									</div>
-									<div class="modal-body">
-										<p>
-											Zawartość okienka pop-up Edytuj
-										</p>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-										<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+							<!-- Przycisk uruchamiający modal -->
+							<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal2">
+								Edytuj
+							</button>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+												<span aria-hidden="true">&times;</span>
+												<span class="sr-only">Zamknij</span>
+											</button>
+											<h4 class="modal-title" id="myModalLabel">
+												Edytuj
+											</h4>
+										</div>
+										<div class="modal-body">
+											<p>
+												Zawartość okienka pop-up Edytuj
+											</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+											<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 						
-						<!-- Przycisk uruchamiający modal -->
-						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
-							Usuń
-						</button>
-						<!-- Modal -->
-						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">&times;</span>
-											<span class="sr-only">Zamknij</span>
-										</button>
-										<h4 class="modal-title" id="myModalLabel">
-											Usuń
-										</h4>
-									</div>
-									<div class="modal-body">
-										<p>
-											Zawartość okienka pop-up Usuń
-										</p>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-										<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+							<!-- Przycisk uruchamiający modal -->
+							<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal3">
+								Usuń
+							</button>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+												<span aria-hidden="true">&times;</span>
+												<span class="sr-only">Zamknij</span>
+											</button>
+											<h4 class="modal-title" id="myModalLabel">
+												Usuń
+											</h4>
+										</div>
+										<div class="modal-body">
+											<p>
+												Zawartość okienka pop-up Usuń
+											</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+											<button type="button" class="btn btn-primary">Zapisz zmiany</button>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
+						</div>
 					</div>
 				</div>
+					<form class="form  text-center form-fluid" role="form">
+						<table class="table table-responsive table-hover text-left">
+							<thead>
+								<tr>
+									<th>Akcja</th>
+									<th>Nazwisko</th>
+									<th>Imię</th>
+									<th>Stanowisko/Funkcja</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<label class="checkbox">
+										
+												<input type="checkbox" id="inlineCheckbox1" value="option1" disabled>
+										
+										</label>
+									</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+
+							</tbody>
+						</table> 
+					</form>
+			</div>
 		</div>
-		
 	</body>
 </html>
