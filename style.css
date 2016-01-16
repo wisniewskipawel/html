@@ -1,7 +1,14 @@
+.container{
+
+}
+
+.form{
+padding: 10px 10px 10px 10px;
+border-radius: 7px;
+border: 3px double #28e;
+box-shadow: 5px 5px 10px;
 
 
-#form{
-background-color: #9ce;
 }
 #Form1{
 padding-left: 2px;
