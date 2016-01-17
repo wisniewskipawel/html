@@ -1,63 +1,38 @@
 .container{
 
+
+
 }
 
 .form{
-padding: 10px 10px 10px 10px;
+margin-top: 10px;
+
 border-radius: 7px;
 border: 3px double #28e;
+margin-bottom: 10px
+
+
+}
+
+.checkbox{
+
+text-align: center;
+
+}
+#topbar{
+background-color: #28e;
+margin-top: 10px;
+box-shadow: 5px 0px 10px;
+
+}
+#content{
+padding: 10px 10px 10px 10px;
+
+}
+#kontener{
+border: 5px #28e;
 box-shadow: 5px 5px 10px;
 
-
-}
-#Form1{
-padding-left: 2px;
-background-color: #9ce;
-border: 3px double #28e;
-border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-width: 1000px;
-box-shadow: 5px 5px 10px
-}
-#Form2{
-padding-left: 2px;
-background-color: #9ce;
-border: 3px double #28e;
-border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-width: 1000px;
-	box-shadow: 5px 5px 10px
-}
-#Form3{
-padding-left: 2px;
-background-color: #9ce;
-border: 3px double #28e;
-border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-width: 1000px;
-box-shadow: 5px 5px 10px
-}
-#Form4{
-padding-left: 2px;
-background-color: #9ce;
-border: 3px double #28e;
-border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-width: 1000px;
-box-shadow: 5px 5px 10px
-
-}
-#tytul{
-	width: 1000px;
-	background: #9ce; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(#9ce, white, #9ce); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#9ce, white, #9ce); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#9ce, white, #9ce); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#9ce, white, #9ce); /* Standard syntax */
-
 }
 
-table.tab{
-background-color: #9ce;
 
-}
